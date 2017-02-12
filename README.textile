@@ -1,0 +1,28 @@
+h1. Reaper templates
+
+Created during a Call & Response Ambisonic Workshop on 12-02-17
+
+h2. Configure & Run
+
+Run in "Reaper":http://www.reaper.fm.
+
+h3. Plugins
+
+- "O3A Core Ambisonic VSTs":http://www.blueripplesound.com/products/o3a-core-vst
+
+The mono/stereo panner tracks are routed to the ambisonic decoder which can be automated on azimuth and elevation planes to place and move audio within a 3D space.
+
+The free VSTs only provide mono, stereo and up to 5.1 surround but full 16 channel version is available to purchase.
+
+The remaining, ungrouped channels are designed to be routed to individual audio interface outputs directly, bypassing the ambisonic system.
+
+This template is good enough to get started working with 3D audio to create an ambisonic, multichannel
+render which can be played back on tools like the "Harpex player":http://harpex.net/download.html.
+
+The ideal scenario is to swap out the referenced decoder for the full 16 channel version and work
+on an array of speakers but this will give you a reasonable reference on a stereo monitoring system.
+
+
+h2. Thanks
+
+- "Call & Response studio":http://www.callandresponse.org.uk
